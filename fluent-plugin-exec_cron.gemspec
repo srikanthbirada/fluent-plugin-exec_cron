@@ -5,10 +5,10 @@ Gem::Specification.new do |gem|
   gem.version       = "0.0.3"
   gem.summary       = %q{executes external programs with cron syntax.}
   gem.description   = %q{executes external programs with cron syntax.}
-  gem.license       = "MIT"
-  gem.authors       = ["Hiroshi Toyama"]
-  gem.email         = "toyama0919@gmail.com"
-  gem.homepage      = "https://github.com/toyama0919/fluent-plugin-exec_cron"
+  gem.license       = "Zscaler"
+  gem.authors       = ["Srikanth Birada"]
+  gem.email         = "srikanth.birada@gmail.com"
+  gem.homepage      = "https://github.com/srikanthbirada/fluent-plugin-exec_cron"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
